@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATC Radar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="start-menu">
+        <h1>Select Island</h1>
+        <select id="island-select">
+            <option value="Full Map">Full Map</option>
+            <option value="rockford">Rockford</option>
+            <option value="grindavik">Grindavik</option>
+            <option value="orenji">Orenji</option>
+            <option value="sbth">Saint Barthelemy</option>
+            <option value="larnaca">Larnace</option>
+            <option value="izol">Izolirani</option>
+            <option value="sauth">Sauthemptona</option>
+            <option value="perth">Perth</option>
+            <option value="skopelos">Skopelos</option>
+        </select>
+        <button id="start-button">Start</button>
+    </div>
+    <div id="radar" style="display:none;">
+        <div id="map-container">
+            <div class="map-background"></div>
+            <img id="map" src="" alt="Game Map">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
